@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Yupari - Home page</title>
+
+    <link rel="stylesheet" href="styles/bootstrap.min.css" >
+    <link rel="icon" href="images/logo9.2.jpg" type="image/jpg">
+    <link rel="stylesheet" href="styles/styles-proj.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo12.jpg" alt="Logo image" width="30" height="24" class="d-inline-block align-text-top">
+                Ark Industries</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="bio.html">Bio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="projects.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://markyupari.github.io/pac-men/">Pac Man</a></li>
+                      <li><a class="dropdown-item" href="#">Eyes movement</a></li>
+                      <li><a class="dropdown-item" href="#">Real time Bus tracker</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Social networks</a>
+                  </li>
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-3">
+                  <div class="card text-bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">Pac-men factory</h5>
+                      <p class="card-text">Example of how to use the DOM manipulation to create elements using images and giving them animation.</p>
+                      <p class="card-text">How to use: To create a new Pac-man, click on "Add new". You can add as many as you want or as many as your machine can handle. To start the animation click on "Start Game".</p>
+                      <a href="https://github.com/markyupari/pac-men" class="btn btn-primary">Check the repo</a>
+                      <a href="https://markyupari.github.io/pac-men/" class="btn btn-primary">See it run!</a>
+                      <p class="card-text"><br>Screenshot:</p>
+                      <img src="images/pacmen-live.png" height="300" class="card-img-bottom" alt="Pacmen in action">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card text-bg-light">
+                    <div class="card-body">
+                      <h5 class="card-title">Eyes movement animation</h5>
+                      <p class="card-text">This page shows how to combine CSS with JavaScript and DOM manipulation to create an animation of eyes following the cursor movement.</p>
+                      <p class="card-text">This can be done by getting the event of "onmousemove" and converting it to the position of the 'eyes'. Just hover the mouse around the page to see how your movement is been tracked.</p>
+                      <a href="https://github.com/markyupari/eyes-movement-animation" class="btn btn-primary">Check the repo</a>
+                      <a href="https://markyupari.github.io/eyes-movement-animation/" class="btn btn-primary">See it run!</a>
+                      <p class="card-text"><br>Screenshot:</p>
+                      <img src="images/eyes.png" height="300" class="card-img-bottom" alt="Eyes tracking">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card text-bg-dark">
+                    <div class="card-body">
+                      <h5 class="card-title">Real Time Bus Tracker</h5>
+                      <p class="card-text">Example of how to use the DOM manipulation to create elements using images and giving them animation.</p>
+                      <p class="card-text">How to use: To create a new Pac-man, click on "Add new". You can add as many as you want or as many as your machine can handle. To start the animation click on "Start Game".</p>
+                      <a href="https://github.com/markyupari/pac-men" class="btn btn-primary">Check the repo</a>
+                      <a href="https://markyupari.github.io/pac-men/" class="btn btn-primary">See it run!</a>
+                      <p class="card-text"><br>Screenshot:</p>
+                      <img src="images/pacmen-live.png" height="300" class="card-img-bottom" alt="Pacmen in action">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <script src="script/bootstrap.bundle.min.js.map"></script>
+    <script src="script/main.js"> </script>
+</body>
