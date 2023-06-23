@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 62% 38%;
+    grid-template-areas:
+    'main video';
+}
+
+.container {
+    margin-left: 2rem;
+    grid-area: main;
+}
+
+
+.display-1 {
+    font-size: 5.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Fira Sans",sans-serif;
+    letter-spacing: normal;
+}
+
+.border-1 {
+    height: 6px;
+    width: 45%;
+    border: solid;
+    color: white;
+    background-color: white;
+}
+
+.container-level-3 {
+    margin-top: 1.5rem;
+}
+
+.display-2 {
+    font-size: 2em;
+    font-family: "Playfair Display",serif;
+    color: white;
+    text-align: left;
+}
+
+.display-3 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    font-family: "Fira Sans",sans-serif;
+    letter-spacing: normal;
+}
+
+.display-4 {
+    font-size: 1.5em;
+    font-family: "Playfair Display",serif;
+    color: white;
+    text-align: justify;
+}
+
+aside {
+    grid-area: video;
+}
+
+.container,
+aside {
+    margin-top: 8rem;
+}
+
+iframe {
+    border: 0.5rem solid;
+}
+
+.button-lower {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: orange;
+}

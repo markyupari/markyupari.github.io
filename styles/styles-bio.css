@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 62% 38%;
+    grid-template-areas:
+    'main video';
+}
+
+.container {
+    margin-left: 2rem;
+    grid-area: main;
+    margin-top: 2rem;
+}
+
+.border-1 {
+    height: 6px;
+    width: 28%;
+    border: solid;
+    color: white;
+    background-color: white;
+}
+
+.container-level-3 {
+    margin-top: 0.5rem;
+}
+
+.display-3 {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    font-family: "Fira Sans",sans-serif;
+    letter-spacing: normal;
+}
+
+.display-4 {
+    font-size: 1.5em;
+    font-family: "Playfair Display",serif;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.display-5 {
+    font-size: 1em;
+    font-family: "Fira Sans",sans-serif;
+    color: white;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+aside {
+    grid-area: video;
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+
+.photo {
+    border: 0.5rem solid;
+}
