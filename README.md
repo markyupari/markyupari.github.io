@@ -21,7 +21,7 @@ With my profile, I can add to the company a lower learning curve and knowledge o
 + JavaScript.  
 + Industrial Automation.
 
-For more information you can visit my website in <a href="https://markyuupari.github.io">here</a>.
+For more information you can visit my website <a href="https://markyuupari.github.io">here</a>.
 
 ## Contact me
 
