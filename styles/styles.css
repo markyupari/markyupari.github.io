@@ -79,3 +79,7 @@ iframe {
     letter-spacing: 2px;
     background-color: orange;
 }
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 5s;
+  }
