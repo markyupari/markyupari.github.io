@@ -19,7 +19,8 @@ With my profile, I can add to the company a lower learning curve and knowledge o
 + HTML5.  
 + CSS3.  
 + JavaScript.  
-+ Industrial Automation.  
++ Industrial Automation.
+
 For more information you can visit my website in <a href="https://markyuupari.github.io">here</a>.
 
 ## Contact me
