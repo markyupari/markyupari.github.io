@@ -4,82 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Yupari - Home page</title>
-
+    <!--Tab icon configuration-->
     <link rel="icon" href="images/logo9.2.jpg" type="image/jpg">
-
-    <link rel="stylesheet" href="styles/bootstrap.min.css" >   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css" integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  </head>
+    <!--links for bootstrap, bootswatch, and styles.css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="images/logo12.jpg" alt="Logo image" width="30" height="24" class="d-inline-block align-text-top">
-                Ark Industries</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="bio.html">Bio</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="projects.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Projects
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" target="_blank" href="https://github.com/markyupari/pac-men">Pac Men</a></li>
-                      <li><a class="dropdown-item" target="_blank" href="https://github.com/markyupari/eyes-movement-animation">Eyes movement</a></li>
-                      <li><a class="dropdown-item" target="_blank" href="https://github.com/markyupari/bus-track-online">Real time Bus tracker</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="projects.html">Projects</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Social networks</a>
-                  </li>
-                </ul>
-                <!-- <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-              </div>
+    <!--Navbar-->
+    <header id="top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#top">
+              <img src="images/logo12.jpg" alt="Logo image" width="30" height="24" class="d-inline-block align-text-top">
+              Ark Industries</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#bio">Bio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#project" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" target="_blank" href="https://github.com/markyupari/pac-men">Pac Men</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="https://github.com/markyupari/eyes-movement-animation">Eyes movement</a></li>
+                    <li><a class="dropdown-item" target="_blank" href="https://github.com/markyupari/bus-track-online">Real time Bus tracker</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#projects">Projects</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Social networks</a>
+                </li>
+              </ul>
+              <!-- <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
             </div>
-          </nav>
-    </header>
+          </div>
+        </nav>
+  </header>
 
     <main>
-        <div class="container animate__animated animate__fadeIn">
-            <div class="container-level-5">
-                <h1 class="display-1">Mark Yupari Ruiz <br>Full Stack Developer</h1>
-            </div>
-            <div class="container-level-4">
-                <button class="border-1"></button>
-            </div>
-            <div class="container-level-3">
-                <h2 class="display-2">Experience in automation and web development using HTML, CSS<br> and JavaScript</h2>
-            </div>
-
-        </div>
+      <div class="container-fluid vstack bg-black text-white">
         
-        <aside>
+        <!--Landing page-->
+        <div class="row ms-5 d-flex align-items-center" id="start" style="height: 100vh;">
+          <div class="col-sm-7"><!--Title-->
+            <h1 class="display-1 fw-bold">Mark Yupari Ruiz</h1>
+            <h1 class="display-3 fw-bold">Full Stack Developer</h1>
+            <hr class="border border-5 opacity-100 w-25">
+            <h2 class="display-6 text-justify">Web development using HTML, CSS and JavaScript and expertise in automation</h2>
+            <a class="btn btn-primary fs-4 mt-3" href="#bio">Learn more</a>
+          </div>
+          <div class="col-sm-3"><!--YT video-->
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-D8f0WB1Ty8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
 
-        </aside>
-        <footer>
-            <button class="button-lower animate__animated animate__fadeIn" onclick="openBio()">Learn more</button>
-        </footer>
+        <!--Bio page-->
+        <div class="row ms-5 d-flex align-items-center" id="bio" style="height: 100vh;">
+        
+          <div class="col-sm-7 mt-5"><!--Elevator pitch-->
+            <h3 class="display-4">About me</h3>
+            <hr class="border border-5 opacity-100">
+            <p class="fs-4 text-justify">Hello there! My name is Mark Yupari, and this is a short brief of my bio as a web developer.<br> <br>
+              The combined knowledge from MIT course “Full Stack Developer with MERN” and experience as an automation technician at the international oil industry facility from Repsol, allowed me to gain expertise in topics like logic and control algorithms development, use of data analysis tools, and system integration from different platforms, as well as soft skills like teamwork, efficient communication, and proactivity.<br>
+              <br>
+               With my profile, I can add to the company a lower learning curve and knowledge of automation techniques which makes a more competitive engineer.</p>
+            <a class="btn btn-primary fs-4 mt-3" href="#projects">Projects</a>
+          </div>
+
+          <div class="col-sm-4 ms-5 mt-5"><!--Photo and links-->
+            <img class="img-thumbnail bg-black" src="images/bio-pic.jpg" alt="Mark Yupari photo"></img>
+            <div class="list-group">
+              <a class="list-group-item list-group-item-action list-group-item-dark fw-bold fs-5 text-white" href="https://github.com/markyupari" target="_blank">Find me at Github as markyupari</a>
+              <a class="list-group-item list-group-item-action list-group-item-dark fw-bold fs-5 text-white" href="https://www.linkedin.com/in/markyupariruiz/" target="_blank">Check my LinkedIn profile</a>
+              <a class="list-group-item list-group-item-action list-group-item-dark fw-bold fs-5 text-white" href="mailto:yupari87157@gmail.com" target="_blank">Best way to contact me: yupari87157@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Projects page-->
+        <div class="row d-flex align-items-center" id="projects">
+
+          <div class="col-sm-6 mb-3 mb-sm-3 mt-5">
+            <div class="card text-bg-dark">
+              <div class="card-body">
+                <h5 class="card-title">Pac-men factory</h5>
+                <p class="card-text">Example of how to use the DOM manipulation to create elements using images and giving them animation.</p>
+                <p class="card-text">How to use: To create a new Pac-man, click on "Add new". You can add as many as you want or as many as your machine can handle. To start the animation click on "Start Game".</p>
+                <a href="https://github.com/markyupari/pac-men" target="_blank" class="btn btn-primary">Check the repo</a>
+                <a href="https://markyupari.github.io/pac-men/" target="_blank" class="btn btn-primary">See it run!</a>
+                <p class="card-text"><br>Screenshot:</p>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&autoplay=1&loop=1&amp;list=PLAIMd0Tm2DOxoNsRGQIGk7jI8b4ZdtbBq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mt-5">
+            <div class="card text-bg-light">
+              <div class="card-body">
+                <h5 class="card-title">Eyes movement animation</h5>
+                <p class="card-text">This page shows how to combine CSS with JavaScript and DOM manipulation to create an animation of eyes following the cursor movement.</p>
+                <p class="card-text">This can be done by getting the event of "onmousemove" and converting it to the position of the 'eyes'. Just hover the mouse around the page to see how your movement is been tracked.</p>
+                <a href="https://github.com/markyupari/eyes-movement-animation" target="_blank" class="btn btn-primary">Check the repo</a>
+                <a href="https://markyupari.github.io/eyes-movement-animation/" target="_blank" class="btn btn-primary">See it run!</a>
+                <p class="card-text"><br>Screenshot:</p>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&autoplay=1&loop=1&amp;list=PLAIMd0Tm2DOyhu4D_OOjQOsEWXKCYEn8K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card text-bg-dark">
+              <div class="card-body">
+                <h5 class="card-title">Real Time Bus Tracker</h5>
+                <p class="card-text">This project is an example of how to show a map with a Real-time bus tracker.</p> 
+                <p class="card-text">As the bus location changes, it's updated on the map and auto-centered. The marker is customized to show an image of a bus.</p>
+                <p class="card-text">The location refresh rate is 15 seconds. To begin the bus tracking, click on the button "Start Bus Tracker."</p>
+                <a href="https://github.com/markyupari/bus-track-online" target="_blank" class="btn btn-primary">Check the repo</a>
+                <a href="https://markyupari.github.io/bus-track-online/" target="_blank" class="btn btn-primary">See it run!</a>
+                <p class="card-text"><br>Screenshot:</p>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&autoplay=1&loop=1&amp;list=PLAIMd0Tm2DOz9nGNSk41NhvkPGPs4Bw4F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary fs-4 mt-3" href="#top">Up to the top</a>
+        </div>
+      </div>
     </main>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-    <script src="script/bootstrap.bundle.min.js"></script>
-    <script src="script/main.js"> </script>
 </body>
